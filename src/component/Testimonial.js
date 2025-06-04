@@ -28,7 +28,7 @@ const testimonials = [
     name: "Emma Collins",
     role: "Student",
     image: user,
-    text: "Kids Robotic School is a trailblazer in innovative STEM education. Their dedication to nurturing young minds is commendable.",
+    text: "Kids Robotics School is a trailblazer in innovative STEM education. Their dedication to nurturing young minds is commendable.",
   },
   {
     name: "Sarah Johnson",
