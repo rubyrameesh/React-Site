@@ -1,0 +1,35 @@
+.teaching-section {
+  padding: 60px 20px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.teaching-content {
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.teaching-button {
+  display: inline-block;
+  background: #25d5fe;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 6px;
+  width: 200px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Added proper shadow */
+  transition: background 0.3s ease;
+}
+.teaching-button:hover {
+  background: #1bb8e0;
+}

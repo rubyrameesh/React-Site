@@ -1,0 +1,42 @@
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 21px;
+  justify-content: space-between;
+  background-color: #dcdcde;
+}
+
+.feature {
+  width: 23%;
+  text-align: center;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.feature-image img {
+  max-height: 180px; /* Uniform image height */
+  object-fit: contain;
+  width: 100%;
+}
+
+.feature-content {
+  margin-top: auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.feature-content h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.feature-content p {
+  font-size: 0.95rem;
+  color: #666;
+}
+.feature-title {
+  color: #5775ec;
+  font-weight: 800;
+}

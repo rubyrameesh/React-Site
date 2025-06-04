@@ -1,0 +1,13 @@
+.services-section {
+  padding: 60px 20px;
+  background-image: linear-gradient(180deg, #25d5fee6 0%, #2e60fe 100%),
+    url("assets/bg_img.png");
+  text-align: center;
+}
+.service-card {
+  margin-top: -100px;
+  border-radius: 15px;
+}
+.trusted {
+  color: white;
+}

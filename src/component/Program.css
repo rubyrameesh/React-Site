@@ -1,0 +1,93 @@
+.program-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  background-image: url("assets/bg_img.png");
+}
+
+.program-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+.program-left-bg {
+  position: relative;
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0px 7px 10px rgba(46, 96, 254, 0.3);
+}
+
+.image-card-container {
+  position: relative;
+}
+
+.image-card-container img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.icon-box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #1bb8e0;
+  margin-left: 60%;
+
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+}
+.program-right-text {
+  flex: 0 0 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.program-heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.program-description {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.discover-more-button {
+  display: inline-block;
+  background: #25d5fe;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 6px;
+  width: 200px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Added proper shadow */
+  transition: background 0.3s ease;
+}
+
+.discover-more-button:hover {
+  background: #1bb8e0;
+}
+
+.card.program-left-bg {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  padding: 20px;
+}
+h6.ourprogram {
+  color: #fb772f;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
