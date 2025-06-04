@@ -49,7 +49,7 @@ const SupportSection = () => {
                   <Card.Title>Ticket Support</Card.Title>
                   <Card.Text>
                     Quam auctor amet primis per sem. Blandit lorem hac ipsum
-                    velit rhoncus suscipit dictum.
+                    velit rhoncus suscipit dictum.For Git
                   </Card.Text>
                   <a className="support-button">Send Ticket</a>
                 </Card.Body>
